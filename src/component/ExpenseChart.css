@@ -1,0 +1,32 @@
+.expense-chart {
+  background: white;
+  border-radius: 10px;
+}
+
+.expense-chart h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.chart-container {
+  height: 300px;
+  position: relative;
+}
+
+.chart-placeholder {
+  text-align: center;
+  padding: 50px 20px;
+  color: #999;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.chart-placeholder p:first-child {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.chart-placeholder p:last-child {
+  font-size: 0.9rem;
+}

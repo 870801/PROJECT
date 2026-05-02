@@ -1,0 +1,28 @@
+.total-expense {
+  margin-top: 20px;
+}
+
+.total-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.total-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.total-amount {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.total-count {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}

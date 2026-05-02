@@ -1,0 +1,88 @@
+.expense-list {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.expense-list h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background 0.3s;
+}
+
+.expense-item:hover {
+  background: #f5f5f5;
+}
+
+.expense-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.expense-icon {
+  font-size: 2rem;
+}
+
+.expense-details h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.expense-meta {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.category {
+  background: #667eea;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-right: 10px;
+  font-size: 0.75rem;
+}
+
+.expense-amount {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #764ba2;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-delete {
+  background: #ff4757;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.btn-delete:hover {
+  transform: scale(1.1);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 1.2rem;
+}
